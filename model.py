@@ -63,7 +63,7 @@ class Igra:
                 else:
                     return NAPACNA_CRKA
             
-with open("besede.txt", "r", encoding="utf-8") as datoteka_z_besedami:
+with open("besede.txt", "r", encoding="latin-1") as datoteka_z_besedami:
     bazen_besed = [vrstica.strip().upper() for vrstica in datoteka_z_besedami]
 
 def nova_igra():

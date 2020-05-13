@@ -47,7 +47,7 @@ def pozeni_vmesnik():
             print(izpis_zmage(igra))
             break
         elif igra.poraz():
-            print(izpis_igre.poraza())
+            print(izpis_poraza(igra))
             break
     return
 
